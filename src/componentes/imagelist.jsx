@@ -1,4 +1,5 @@
 import ImageShow from "./ImageShow"
+import './ImageList.css'
 
 function ImageList({images}){
     console.log(images)
@@ -7,7 +8,7 @@ function ImageList({images}){
     })
 
     return(
-        <div>
+        <div className="image-list">
         {renderImage}    
         </div>
     )
